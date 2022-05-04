@@ -1,3 +1,22 @@
-// Place all the styles related to the home controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+  background-color: antiquewhite;
+}
+
+.careerdetail {
+  border-radius: 15px;
+  background-color: blue;
+  color: white;
+  font-weight: bold;
+  height: 50px;
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+.menta {
+  border-radius: 15px;
+  background-color: green ;
+  color: white;
+  font-weight: bold;
+  height: 50px;
+  width: 150px;
+}
