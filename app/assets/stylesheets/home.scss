@@ -2,6 +2,10 @@ body {
   background-color: antiquewhite;
 }
 
+.links {
+  display: flex;
+}
+
 .careerdetail {
   border-radius: 15px;
   background-color: blue;
@@ -40,4 +44,22 @@ body {
   height: 50px;
   width: 150px;
   margin-bottom: 20px;
+}
+
+@media screen and (max-width: 959px) {
+	/* 959px以下に適用されるCSS（タブレット用） */
+  .links {
+    display: inline;
+  }
+}
+@media screen and (max-width: 480px) {
+	/* 480px以下に適用されるCSS（スマホ用） */
+  .links {
+    display: inline;
+  }
+}
+@media screen and (min-width: 960px) {
+  img {
+    max-width: 960px;
+  }
 }
