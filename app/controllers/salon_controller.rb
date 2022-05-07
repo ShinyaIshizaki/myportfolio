@@ -1,6 +1,6 @@
-class UsersController < ApplicationController
+class SalonController < ApplicationController
   def index
-    @users = User.all
+    render 'index'
   end
 
   def create
@@ -13,6 +13,7 @@ class UsersController < ApplicationController
   end
 
   def show
+    render 'show'
   end
 
   def update
