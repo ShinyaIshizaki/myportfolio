@@ -5,12 +5,20 @@ initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 </head>
 <body>
-  <h1>Shinya Ishizaki's Portfolio</h1>
-  <%= image_tag 'icon.jpg', alt: 'プロフィール写真', class: 'profileimage' %>
-  <h2>Engineer</h2>
-  <h3>損害保険会社、生命保険会社、銀行向け営業店・代理店システム保守開発に4年携わる。<br>
-  他業種他職種を経て独立。<br>
-  Web系エンジニアとして活動するとともに、プログラミング初心者のメンターとしてエンジニアの育成にも力を入れる。</h3>
+  <h1>Shinya Ishizaki&#39;s Portfolio</h1>
+  <div class="container">
+    <div class="item">
+      <%= image_tag 'icon.jpg', alt: 'プロフィール写真', class: 'profileimage' %>
+    </div>
+  </div>
+  <div class="career">
+    <h2>Engineer</h2>
+    <div class="brief">
+      <h3>損害保険会社、生命保険会社、銀行向け営業店・代理店システム保守開発に4年携わる。<br>
+      他業種他職種を経て独立。<br>
+      Web系エンジニアとして活動するとともに、プログラミング初心者のメンターとしてエンジニアの育成にも力を入れる。</h3>
+    </div>
+  </div>
   <div class="links">
     <div class="link">
       <button class="careerdetail" type="button" 
@@ -29,21 +37,20 @@ initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
       onclick=location.href="https://xs350049.xsrv.jp/shinyaishizakiblog/">技術ブログはこちら</button>
     </div>
   </div>
-  <h3>SNSはこちら</h3>
-  <div class="snslinks">
-    <div class="snslink">
+  <div class="sns">
+  </div>
+  <div class="sns">
+    <h3>SNSはこちら</h3>
+    <div class="snslinks">
+      <div class="snslink">
       <a href="https://www.linkedin.com/in/shinyaishizaki0311/"><i class="fab fa-linkedin-in"></i></a>
-    </div>
-    <div class="snslink">
+      </div>
+      <div class="snslink">
       <a href="https://twitter.com/Shinyaaah0311"><i class="fab fa-twitter-square"></i></a>
-    </div>
-    <div class="snslink">
+      </div>
+      <div class="snslink">
       <a href="https://lin.ee/hscs5VS"><i class="fab fa-line"></i></a>
+      </div>
     </div>
-  </div>
-  <div>
-    <h3>オンラインサロン（準備中）はこちら</h3>
-    <button class="salon" type="button" 
-      onclick=location.href="salon/index">サロンへ入る</button>
-  </div>
+    </div>
 </body>

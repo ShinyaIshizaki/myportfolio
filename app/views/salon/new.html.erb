@@ -1,0 +1,12 @@
+<h3>
+  当オンラインサロンは現在準備中です。<br>
+  以下のフォームより、ご予約を承っております。
+</h3>
+<%= form_for(url: salon_confirm_url) do |f| %>
+  <%= render 'shared/error_messages' %>
+  <%= f.label :name %>
+  <%= f.text_field :name, class:'form_control' %>
+  <%= f.label :email %>
+  <%= f.email_field :email, class:'form_control' %>
+  <%= f.submit "Create my account", class: "btn btn-primary" %>
+<% end %>

@@ -2,8 +2,53 @@ body {
   background-color: antiquewhite;
 }
 
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profileimage {
+  border-radius: 30%;
+}
+
+.career {
+  text-align: center;
+}
+
+.brief {
+  text-align: left;
+  display: inline-block;
+}
+
 .links {
   display: flex;
+  align-items: center;
+  justify-content: center; 
+}
+
+.link {
+  margin-right: 10px;
+}
+
+.careerdetail:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+ 
+.menta:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.work:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.blog:hover {
+  opacity: 0.7;
+  cursor: pointer;
 }
 
 .careerdetail {
@@ -46,8 +91,14 @@ body {
   margin-bottom: 20px;
 }
 
+.sns {
+  text-align: center;
+}
+
 .snslinks {
   display: flex;
+  align-items: center;
+  justify-content: center;
   margin-bottom: 20px;
 }
 
@@ -66,16 +117,32 @@ body {
   margin-bottom: 20px;
 }
 
+li {
+  list-style: none;
+}
+
+.submitbtn {
+  border-radius: 15px;
+  background-color: blue ;
+  color: white;
+  font-weight: bold;
+  height: 50px;
+  width: 150px;
+  margin-bottom: 20px;
+}
+
 @media screen and (max-width: 959px) {
 	/* 959px以下に適用されるCSS（タブレット用） */
   .links {
     display: inline;
+    text-align: center;
   }
 }
 @media screen and (max-width: 480px) {
 	/* 480px以下に適用されるCSS（スマホ用） */
   .links {
     display: inline;
+    text-align: center;
   }
 }
 @media screen and (min-width: 960px) {
